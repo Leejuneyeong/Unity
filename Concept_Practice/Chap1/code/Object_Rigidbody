@@ -1,0 +1,21 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Jumper : MonoBehaviour
+{
+    # myRigidbody에게 Rigidbody 속성 부여
+    public Rigidbody myRigidbody;
+    // Start is called before the first frame update
+    void Start()
+    {
+        #AddForce(x,y,z) = x,y,z 값만큼 
+        myRigidbody.AddForce(0,500,0);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}

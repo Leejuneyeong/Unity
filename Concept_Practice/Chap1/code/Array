@@ -1,0 +1,14 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class HelloCode : MonoBehaviour
+{
+    void Start(){
+        int[] student  = new int[5];
+        for(int i=0;i<5;i++){
+            student[i]=i;
+            i++;
+        }
+    }
+}

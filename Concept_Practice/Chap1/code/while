@@ -1,0 +1,26 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class HelloCode : MonoBehaviour
+{
+    void Start(){
+     bool isDead = false;
+     int hp = 100;
+
+    // false가 true로 바뀜 그러면 무한 루프 
+    // 그런데 true값으로 들어가면 false라서 while문이 돌아가지 않음
+     wihle(!isDead)
+     {
+        Debug.Log("현재 체력 : " + hp);
+
+        hp = hp - 33;
+
+        if ( hp <= 0 )
+        {
+            isDead = true;
+            Debug.Log("플레이어는 죽었습니다.");
+        } 
+     }
+    }
+}

@@ -1,0 +1,25 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+// 라이브러리를 사용 : using 라이브러리에 들어있는 코드를 가져와서 사용
+// using뒤의 경로를 [네임스페이스] namespace라고 부름
+
+
+public class HelloCode : MonoBehaviour
+{
+    // Start is called before the first frame update
+    // 코드 실행이 시작되는 시발점 
+    // 게임이 시작될 때 자동으로 한 번 실행됨
+    // 게임 시작과 함께 실행될 코드를 Start()메서드 안에 넣으면 됨
+    void Start()
+    {
+        // Hello World!를 콘솔에 출력
+        Debug.Log("Hello World!");
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
